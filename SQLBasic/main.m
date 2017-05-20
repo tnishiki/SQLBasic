@@ -1,8 +1,8 @@
 //
 //  main.m
-//  SQLBasic
+//  test1
 //
-//  Created by 西木 毅 on 11/12/13.
+//  Created by 西木 毅 on 11/12/04.
 //  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 

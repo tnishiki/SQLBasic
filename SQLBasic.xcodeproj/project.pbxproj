@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39226E6B149CCE4A004C84FC /* cleaner1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39226E6A149CCE4A004C84FC /* cleaner1.png */; };
+		39226E6D149CD3F9004C84FC /* cleaner2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39226E6C149CD3F9004C84FC /* cleaner2.png */; };
+		39226E77149CD9BF004C84FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39226E75149CD9BF004C84FC /* InfoPlist.strings */; };
+		3954DE16149678B6003CD46F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954DE0E149678B6003CD46F /* Controller.m */; };
+		3954DE17149678B6003CD46F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954DE0F149678B6003CD46F /* main.m */; };
+		3954DE19149678B6003CD46F /* SQLBasicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954DE13149678B6003CD46F /* SQLBasicAppDelegate.m */; };
+		3954DE1A149678B6003CD46F /* SQLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954DE15149678B6003CD46F /* SQLWindow.m */; };
+		3954DE1C1496BC63003CD46F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954DE1B1496BC63003CD46F /* libsqlite3.dylib */; };
+		3954DE1F1496BCD0003CD46F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3954DE1D1496BCD0003CD46F /* MainMenu.xib */; };
+		3954DE221496BD43003CD46F /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954DE211496BD43003CD46F /* AppController.m */; };
+		3954DE2E1496BE5B003CD46F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3954DE2A1496BE5B003CD46F /* Credits.rtf */; };
+		395A851714EC0514007C7768 /* SQLBasic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 395A851614EC0514007C7768 /* SQLBasic.icns */; };
+		3980D083149E3CEF0011742C /* SQLBasic-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3980D085149E3CEF0011742C /* SQLBasic-Info.plist */; };
 		39DA2C89149677860097B58D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA2C88149677860097B58D /* Cocoa.framework */; };
-		39DA2C93149677860097B58D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39DA2C91149677860097B58D /* InfoPlist.strings */; };
-		39DA2C95149677860097B58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA2C94149677860097B58D /* main.m */; };
-		39DA2C99149677860097B58D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 39DA2C97149677860097B58D /* Credits.rtf */; };
-		39DA2C9C149677860097B58D /* SQLBasicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA2C9B149677860097B58D /* SQLBasicAppDelegate.m */; };
-		39DA2C9F149677870097B58D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DA2C9D149677870097B58D /* MainMenu.xib */; };
-		39DA2CA7149677870097B58D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA2CA6149677870097B58D /* SenTestingKit.framework */; };
 		39DA2CA8149677870097B58D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA2C88149677860097B58D /* Cocoa.framework */; };
 		39DA2CB0149677870097B58D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39DA2CAE149677870097B58D /* InfoPlist.strings */; };
 		39DA2CB3149677870097B58D /* SQLBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA2CB2149677870097B58D /* SQLBasicTests.m */; };
@@ -30,24 +37,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39226E6A149CCE4A004C84FC /* cleaner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleaner1.png; sourceTree = "<group>"; };
+		39226E6C149CD3F9004C84FC /* cleaner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleaner2.png; sourceTree = "<group>"; };
+		39226E76149CD9BF004C84FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SQLBasic/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3954DE0D149678B6003CD46F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = SQLBasic/Controller.h; sourceTree = SOURCE_ROOT; };
+		3954DE0E149678B6003CD46F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = SQLBasic/Controller.m; sourceTree = SOURCE_ROOT; };
+		3954DE0F149678B6003CD46F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SQLBasic/main.m; sourceTree = SOURCE_ROOT; };
+		3954DE11149678B6003CD46F /* SQLBasic-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SQLBasic-Prefix.pch"; path = "SQLBasic/SQLBasic-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3954DE12149678B6003CD46F /* SQLBasicAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLBasicAppDelegate.h; path = SQLBasic/SQLBasicAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		3954DE13149678B6003CD46F /* SQLBasicAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLBasicAppDelegate.m; path = SQLBasic/SQLBasicAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		3954DE14149678B6003CD46F /* SQLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLWindow.h; path = SQLBasic/SQLWindow.h; sourceTree = SOURCE_ROOT; };
+		3954DE15149678B6003CD46F /* SQLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLWindow.m; path = SQLBasic/SQLWindow.m; sourceTree = SOURCE_ROOT; };
+		3954DE1B1496BC63003CD46F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3954DE1E1496BCD0003CD46F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SQLBasic/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		3954DE201496BD18003CD46F /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = SQLBasic/AppController.h; sourceTree = SOURCE_ROOT; };
+		3954DE211496BD43003CD46F /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = SQLBasic/AppController.m; sourceTree = SOURCE_ROOT; };
+		3954DE2B1496BE5B003CD46F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = "../SQLBasic-failed/SQLBasic/en.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		395A851614EC0514007C7768 /* SQLBasic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SQLBasic.icns; sourceTree = "<group>"; };
+		3980D084149E3CEF0011742C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/SQLBasic-Info.plist"; sourceTree = "<group>"; };
 		39DA2C84149677860097B58D /* SQLBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39DA2C88149677860097B58D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		39DA2C8B149677860097B58D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		39DA2C8C149677860097B58D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		39DA2C8D149677860097B58D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		39DA2C90149677860097B58D /* SQLBasic-Info.plist */ = {isa = PBXFileReference; path = "SQLBasic-Info.plist"; sourceTree = "<group>"; };
-		39DA2C92149677860097B58D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		39DA2C94149677860097B58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		39DA2C96149677860097B58D /* SQLBasic-Prefix.pch */ = {isa = PBXFileReference; path = "SQLBasic-Prefix.pch"; sourceTree = "<group>"; };
-		39DA2C98149677860097B58D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		39DA2C9A149677860097B58D /* SQLBasicAppDelegate.h */ = {isa = PBXFileReference; path = SQLBasicAppDelegate.h; sourceTree = "<group>"; };
-		39DA2C9B149677860097B58D /* SQLBasicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLBasicAppDelegate.m; sourceTree = "<group>"; };
-		39DA2C9E149677870097B58D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		39DA2CA5149677870097B58D /* SQLBasicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLBasicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39DA2CA6149677870097B58D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		39DA2CAD149677870097B58D /* SQLBasicTests-Info.plist */ = {isa = PBXFileReference; path = "SQLBasicTests-Info.plist"; sourceTree = "<group>"; };
+		39DA2CA5149677870097B58D /* SQLBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DA2CAD149677870097B58D /* SQLBasicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLBasicTests-Info.plist"; sourceTree = "<group>"; };
 		39DA2CAF149677870097B58D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		39DA2CB1149677870097B58D /* SQLBasicTests.h */ = {isa = PBXFileReference; path = SQLBasicTests.h; sourceTree = "<group>"; };
+		39DA2CB1149677870097B58D /* SQLBasicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLBasicTests.h; sourceTree = "<group>"; };
 		39DA2CB2149677870097B58D /* SQLBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLBasicTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3954DE1C1496BC63003CD46F /* libsqlite3.dylib in Frameworks */,
 				39DA2C89149677860097B58D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39DA2CA7149677870097B58D /* SenTestingKit.framework in Frameworks */,
 				39DA2CA8149677870097B58D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,11 +88,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39226E67149CCCE1004C84FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39226E6A149CCE4A004C84FC /* cleaner1.png */,
+				39226E6C149CD3F9004C84FC /* cleaner2.png */,
+			);
+			name = Resources;
+			path = /Users/tnishiki/Documents/xcodes/SQLBasic/Resources;
+			sourceTree = "<absolute>";
+		};
+		39226E69149CCCEB004C84FC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		3954DE271496BDE0003CD46F /* SQLBasic */ = {
+			isa = PBXGroup;
+			children = (
+				3980D085149E3CEF0011742C /* SQLBasic-Info.plist */,
+				3954DE12149678B6003CD46F /* SQLBasicAppDelegate.h */,
+				3954DE13149678B6003CD46F /* SQLBasicAppDelegate.m */,
+				3954DE1D1496BCD0003CD46F /* MainMenu.xib */,
+				3954DE201496BD18003CD46F /* AppController.h */,
+				3954DE211496BD43003CD46F /* AppController.m */,
+				3954DE14149678B6003CD46F /* SQLWindow.h */,
+				3954DE15149678B6003CD46F /* SQLWindow.m */,
+				3954DE0D149678B6003CD46F /* Controller.h */,
+				3954DE0E149678B6003CD46F /* Controller.m */,
+				3954DE291496BE1C003CD46F /* Supporting Files */,
+			);
+			name = SQLBasic;
+			sourceTree = "<group>";
+		};
+		3954DE291496BE1C003CD46F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39226E75149CD9BF004C84FC /* InfoPlist.strings */,
+				3954DE0F149678B6003CD46F /* main.m */,
+				3954DE11149678B6003CD46F /* SQLBasic-Prefix.pch */,
+				3954DE2A1496BE5B003CD46F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		39DA2C79149677860097B58D = {
 			isa = PBXGroup;
 			children = (
-				39DA2C8E149677860097B58D /* SQLBasic */,
+				395A851614EC0514007C7768 /* SQLBasic.icns */,
+				3954DE271496BDE0003CD46F /* SQLBasic */,
 				39DA2CAB149677870097B58D /* SQLBasicTests */,
+				39226E67149CCCE1004C84FC /* Resources */,
 				39DA2C87149677860097B58D /* Frameworks */,
 				39DA2C85149677860097B58D /* Products */,
 			);
@@ -86,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				39DA2C84149677860097B58D /* SQLBasic.app */,
-				39DA2CA5149677870097B58D /* SQLBasicTests.octest */,
+				39DA2CA5149677870097B58D /* SQLBasicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +158,8 @@
 		39DA2C87149677860097B58D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3954DE1B1496BC63003CD46F /* libsqlite3.dylib */,
 				39DA2C88149677860097B58D /* Cocoa.framework */,
-				39DA2CA6149677870097B58D /* SenTestingKit.framework */,
 				39DA2C8A149677860097B58D /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -111,32 +175,10 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		39DA2C8E149677860097B58D /* SQLBasic */ = {
-			isa = PBXGroup;
-			children = (
-				39DA2C9A149677860097B58D /* SQLBasicAppDelegate.h */,
-				39DA2C9B149677860097B58D /* SQLBasicAppDelegate.m */,
-				39DA2C9D149677870097B58D /* MainMenu.xib */,
-				39DA2C8F149677860097B58D /* Supporting Files */,
-			);
-			path = SQLBasic;
-			sourceTree = "<group>";
-		};
-		39DA2C8F149677860097B58D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				39DA2C90149677860097B58D /* SQLBasic-Info.plist */,
-				39DA2C91149677860097B58D /* InfoPlist.strings */,
-				39DA2C94149677860097B58D /* main.m */,
-				39DA2C96149677860097B58D /* SQLBasic-Prefix.pch */,
-				39DA2C97149677860097B58D /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		39DA2CAB149677870097B58D /* SQLBasicTests */ = {
 			isa = PBXGroup;
 			children = (
+				39226E69149CCCEB004C84FC /* New Group */,
 				39DA2CB1149677870097B58D /* SQLBasicTests.h */,
 				39DA2CB2149677870097B58D /* SQLBasicTests.m */,
 				39DA2CAC149677870097B58D /* Supporting Files */,
@@ -189,8 +231,8 @@
 			);
 			name = SQLBasicTests;
 			productName = SQLBasicTests;
-			productReference = 39DA2CA5149677870097B58D /* SQLBasicTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 39DA2CA5149677870097B58D /* SQLBasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,7 +240,8 @@
 		39DA2C7B149677860097B58D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 39DA2C7E149677860097B58D /* Build configuration list for PBXProject "SQLBasic" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -206,6 +249,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 39DA2C79149677860097B58D;
 			productRefGroup = 39DA2C85149677860097B58D /* Products */;
@@ -223,9 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39DA2C93149677860097B58D /* InfoPlist.strings in Resources */,
-				39DA2C99149677860097B58D /* Credits.rtf in Resources */,
-				39DA2C9F149677870097B58D /* MainMenu.xib in Resources */,
+				3954DE1F1496BCD0003CD46F /* MainMenu.xib in Resources */,
+				3954DE2E1496BE5B003CD46F /* Credits.rtf in Resources */,
+				39226E6B149CCE4A004C84FC /* cleaner1.png in Resources */,
+				39226E6D149CD3F9004C84FC /* cleaner2.png in Resources */,
+				39226E77149CD9BF004C84FC /* InfoPlist.strings in Resources */,
+				3980D083149E3CEF0011742C /* SQLBasic-Info.plist in Resources */,
+				395A851714EC0514007C7768 /* SQLBasic.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39DA2C95149677860097B58D /* main.m in Sources */,
-				39DA2C9C149677860097B58D /* SQLBasicAppDelegate.m in Sources */,
+				3954DE16149678B6003CD46F /* Controller.m in Sources */,
+				3954DE17149678B6003CD46F /* main.m in Sources */,
+				3954DE19149678B6003CD46F /* SQLBasicAppDelegate.m in Sources */,
+				3954DE1A149678B6003CD46F /* SQLWindow.m in Sources */,
+				3954DE221496BD43003CD46F /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,28 +335,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		39DA2C91149677860097B58D /* InfoPlist.strings */ = {
+		39226E75149CD9BF004C84FC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39DA2C92149677860097B58D /* en */,
+				39226E76149CD9BF004C84FC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		39DA2C97149677860097B58D /* Credits.rtf */ = {
+		3954DE1D1496BCD0003CD46F /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39DA2C98149677860097B58D /* en */,
+				3954DE1E1496BCD0003CD46F /* en */,
+			);
+			name = MainMenu.xib;
+			path = SQLBasicTests;
+			sourceTree = "<group>";
+		};
+		3954DE2A1496BE5B003CD46F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3954DE2B1496BE5B003CD46F /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		39DA2C9D149677870097B58D /* MainMenu.xib */ = {
+		3980D085149E3CEF0011742C /* SQLBasic-Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39DA2C9E149677870097B58D /* en */,
+				3980D084149E3CEF0011742C /* en */,
 			);
-			name = MainMenu.xib;
+			name = "SQLBasic-Info.plist";
+			path = SQLBasic;
 			sourceTree = "<group>";
 		};
 		39DA2CAE149677870097B58D /* InfoPlist.strings */ = {
@@ -323,12 +384,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -339,8 +409,12 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -350,18 +424,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -369,9 +455,12 @@
 		39DA2CB7149677870097B58D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQLBasic/SQLBasic-Prefix.pch";
 				INFOPLIST_FILE = "SQLBasic/SQLBasic-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "tnishiki.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,9 +469,12 @@
 		39DA2CB8149677870097B58D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQLBasic/SQLBasic-Prefix.pch";
 				INFOPLIST_FILE = "SQLBasic/SQLBasic-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "tnishiki.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,13 +484,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLBasic.app/Contents/MacOS/SQLBasic";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQLBasic/SQLBasic-Prefix.pch";
 				INFOPLIST_FILE = "SQLBasicTests/SQLBasicTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "tnishiki.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -406,13 +499,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLBasic.app/Contents/MacOS/SQLBasic";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQLBasic/SQLBasic-Prefix.pch";
 				INFOPLIST_FILE = "SQLBasicTests/SQLBasicTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "tnishiki.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -426,7 +520,7 @@
 				39DA2CB5149677870097B58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		39DA2CB6149677870097B58D /* Build configuration list for PBXNativeTarget "SQLBasic" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +529,7 @@
 				39DA2CB8149677870097B58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		39DA2CB9149677870097B58D /* Build configuration list for PBXNativeTarget "SQLBasicTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +538,7 @@
 				39DA2CBB149677870097B58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
